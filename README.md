@@ -20,18 +20,20 @@
 
 ## Inputs
     sitebaseurl: String, Base site URL
-        Example:
-            sitebaseurl = "https://EXAMPLE.com" 
+    
+    * Example: sitebaseurl = "https://EXAMPLE.com" 
+
 
     bucketls: Dictionary, File types to poll and a corresponding bucket and subfolder
               for uploading changed files of this type
-        Example:
-            bucketls = {".js": 'MYBUCKET/MYSUBFOLDERFORJSFILES',
-            '.html':'MYBUCKET/MYSUBFOLDERFORHTMLFILES'} 
+    
+    * Example: bucketls = {".js": "MYBUCKET/MYSUBFOLDERFORJSFILES",
+                           ".html":"MYBUCKET/MYSUBFOLDERFORHTMLFILES"} 
+
 
     openchrome: Boolean, True to open updated file in chrome
-        Example:
-            openchrome = True 
+    
+    * Example: openchrome = True 
 
 ## Example Use Case
     Website updates beyond local environment when it is desirable to see actual
