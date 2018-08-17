@@ -1,0 +1,10 @@
+# Ignore everything
+_webfiles/*
+
+# But not these files...
+!._webfiles/Demo.html
+!._webfiles/Demo.js
+!._webfiles/subdir1/Demo1.html
+!._webfiles/subdir1/Demo1.js
+!._webfiles/subdir1/Demo2.html
+!._webfiles/subdir1/Demo2.js
