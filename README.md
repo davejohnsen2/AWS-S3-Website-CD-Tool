@@ -15,9 +15,8 @@
     Note: Only tested with Windows OS. 
 
 ## Requires
-    Windows OS
-    [AWS CLI] (https://aws.amazon.com/cli/) with appropriate credentials to access S3 buckects
-    [Python] (https://www.python.org/) 
+  * [AWS CLI](https://aws.amazon.com/cli) with appropriate credentials to access S3 buckects
+  * [Python](https://www.python.org) 
 
 ## Inputs
     sitebaseurl: String, Base site URL
