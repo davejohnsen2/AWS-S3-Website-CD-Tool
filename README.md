@@ -1,6 +1,6 @@
-#AWS S3 Website CD Tool
+# AWS S3 Website CD Tool
 
-##General
+## General
     This Python script is a continuous deployment tool used to update websites on 
     AWS S3 and view the updates in google chrome. It is designed to run in the
     background as the user makes updates to their files. The script polls the last
@@ -14,12 +14,12 @@
 
     Note: Only tested with Windows OS. 
 
-##Requires
+## Requires
     Windows OS
     [AWS CLI] (https://aws.amazon.com/cli/) with appropriate credentials to access S3 buckects
     [Python] (https://www.python.org/) 
 
-##Inputs
+## Inputs
     sitebaseurl: String, Base site URL
         Example:
             sitebaseurl = "https://EXAMPLE.com" 
@@ -34,7 +34,7 @@
         Example:
             openchrome = True 
 
-##Example Use Case
+## Example Use Case
     Website updates beyond local environment when it is desirable to see actual
     public facing dev environment. Making incremental updates to prod website with
     immediate verification allowing for quick rollback if needed.     
